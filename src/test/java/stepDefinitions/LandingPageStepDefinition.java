@@ -20,6 +20,7 @@ public class LandingPageStepDefinition {
 	
 	@Given("User is on GreenCart Landing Page")
 	public void user_is_on_green_cart_landing_page() throws Throwable{
+		System.out.println("Checking The Title of Page...");
 		Assert.assertTrue(landingPage.getTitleLandingPage().contains("GreenKart"));
 	}
 	
