@@ -31,6 +31,7 @@ public class OfferPageStepDefinition {
 		OffersPage offersPage = testContextSetup.pageObjectManager.getOffersPage();
 //		OffersPage offersPage = new OffersPage(testContextSetup.driver);
 		offersPage.searchItem(shortName);
+		System.out.println("Search the item");
 //		testContextSetup.driver.findElement(By.id("search-field")).sendKeys(shortName);
 		Thread.sleep(3000);
 		offerPageproductName = offersPage.getProductName();
