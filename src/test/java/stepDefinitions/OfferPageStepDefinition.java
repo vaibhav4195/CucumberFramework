@@ -27,6 +27,7 @@ public class OfferPageStepDefinition {
 	public void user_searched_for_shortname_in_offers_page(String shortName) throws Throwable{
 		
 		switchToOffersPage();
+		System.out.println("Switched To Offer Page");
 		OffersPage offersPage = testContextSetup.pageObjectManager.getOffersPage();
 //		OffersPage offersPage = new OffersPage(testContextSetup.driver);
 		offersPage.searchItem(shortName);
@@ -37,6 +38,7 @@ public class OfferPageStepDefinition {
 	
 	@Then("Validate product name in offers page matches with Landing Page")
 	public void validate_product_name_in_Offers_page() throws Throwable{
+		System.out.println("Validating names in Offer Page and Landing Page ");
 		Assert.assertEquals(offerPageproductName, testContextSetup.landingPageProductName);	
 	}
 }
