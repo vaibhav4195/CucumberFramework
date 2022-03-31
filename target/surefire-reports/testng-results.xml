@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="21889" started-at="2022-03-30T12:30:07 IST" finished-at="2022-03-30T12:30:29 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@7d70d1b1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="21889" started-at="2022-03-30T12:30:07 IST" finished-at="2022-03-30T12:30:29 IST">
+      <class name="cucumberOptions.TestNGTestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNGTestRunner@7d70d1b1]" name="setUpClass" is-config="true" duration-ms="1052" started-at="2022-03-30T12:30:07 IST" finished-at="2022-03-30T12:30:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61884cb1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@7d70d1b1]" name="runScenario" duration-ms="18987" started-at="2022-03-30T12:30:08 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-30T12:30:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Experience for product search in both home and Offers page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Place the order for Products]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGTestRunner@7d70d1b1]" name="tearDownClass" is-config="true" duration-ms="1794" started-at="2022-03-30T12:30:27 IST" finished-at="2022-03-30T12:30:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestNGTestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
